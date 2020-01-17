@@ -47,12 +47,16 @@ class SitesearchPlugin extends GenericPlugin {
 
 	/**
 	 * Hook callback: register output filter to modify the search form action
-	 * @see TemplateManager::fetch()
+	 * @see TemplateManager::display()
 	 */
 	function handleTemplateProcess($hookName, $args) {
 		
 		$templateMgr = $args[0];
 		$template = $args[1];
+		/*
+		 * FIXME: this should really target just "frontend/pages/search.tpl" and "frontend/components/searchForm_simple.tpl"
+                 * But searchForm_simple is processed neither through the ::display or ::fetch hooks, so we are stuck with a global replace.
+		 */
 		if (strpos($template, 'frontend/pages/') === 0) {
 			if(method_exists($templateMgr, 'registerFilter')) {
 				// OJS 3.1.2 and later (Smarty 3)
