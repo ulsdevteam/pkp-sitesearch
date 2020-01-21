@@ -6,6 +6,7 @@ This plugin rewrites the search for a context to the site level.  This is used i
 
 * OJS 3.x / OMP 3.1 or later
 * PHP 7.2 or later
+
 For an OJS 2.x. analog, see the [Block Site Search](https://github.com/ulsdevteam/ojs-sitesearch-plugin/) plugin.
 
 ## Installation
