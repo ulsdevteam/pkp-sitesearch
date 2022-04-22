@@ -12,8 +12,8 @@
 <version>
 	<application>sitesearch</application>
 	<type>plugins.generic</type>
-	<release>1.0.0.0</release>
-	<date>2020-02-17</date>
+	<release>1.1.0.0</release>
+	<date>2022-04-22</date>
 	<lazy-load>1</lazy-load>
 	<class>SitesearchPlugin</class>
 </version>
