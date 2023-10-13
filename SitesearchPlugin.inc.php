@@ -79,19 +79,4 @@ class SitesearchPlugin extends GenericPlugin {
 		$output = str_replace($contextSearch, $siteSearch, $output);
 		return $output;
 	}
-
-
-	/**
-	 * @see PKPPlugin::getTemplatePath()
-	 */
-	public function getTemplatePath($inCore = false) {
-		$templatePath = parent::getTemplatePath($inCore);
-		$templateDir = 'templates';
-		if (strlen($templatePath) >= strlen($templateDir)) {
-			if (substr_compare($templatePath, $templateDir, strlen($templatePath) - strlen($templateDir), strlen($templateDir)) === 0) {
-				return $templatePath;
-			}
-		}
-	}	
-
 }
