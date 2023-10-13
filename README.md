@@ -6,10 +6,8 @@ For example, suppose the Journal of Autonomous Variables (JoAV) used to be calle
 
 ## Requirements
 
-* OJS 3.x / OMP 3.1 or later
-* PHP 7.2 or later
-
-For an OJS 2.x. analog, see the [Block Site Search](https://github.com/ulsdevteam/ojs-sitesearch-plugin/) plugin.
+* OJS 3.4 / OMP 3.4 or later
+* PHP 8.0 or later
 
 ## Installation
 
@@ -27,6 +25,6 @@ The display of templates for the search handler and for the simple searchbar wil
 
 ## Author / License
 
-Written by Clinton Graham for the [University of Pittsburgh](http://www.pitt.edu).  Copyright (c) University of Pittsburgh.
+Written by Clinton Graham and Tazio Polanco for the [University of Pittsburgh](http://www.pitt.edu).  Copyright (c) University of Pittsburgh.
 
 Released under a license of GPL v2 or later.
